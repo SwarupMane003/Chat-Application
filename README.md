@@ -1,20 +1,41 @@
-Run Locally
-Clone the project
+# MERN Chat Application
 
-  git clone https://github.com/SwarupMane003/Chat-Application
-Go to the project directory
+A real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-  cd mern-chat-app
-Install dependencies
+## Run Locally
 
-  npm install
-  cd frontend/
-  npm install
-Start the server
+1. Clone the project and navigate to the project directory:
 
-  npm run start
-Start the Client
+   ```bash
+   git clone https://github.com/SwarupMane003/Chat-Application
+   cd mern-chat-app
+   ```
 
-  //open now terminal
-  cd frontend
-  npm start
+2. Install backend dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Install frontend dependencies:
+
+   ```bash
+   cd frontend
+   npm install
+   cd ..
+   ```
+
+4. Start the backend server:
+
+   ```bash
+   npm run start
+   ```
+
+5. Start the frontend client (in a new terminal):
+
+   ```bash
+   cd frontend
+   npm start
+   ```
+
+### Your application is now running locally
